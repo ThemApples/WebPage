@@ -7,7 +7,7 @@ Then the github will host it using github pages.
 
 ## Installation
 
-There is no Installation method required besides the putting the url https://themapples.github.io/Pages/ into your browser.
+There is no Installation method required besides the putting the url https://themapples.github.io/WebPage/ into your browser.
 
 ## Builds
 
