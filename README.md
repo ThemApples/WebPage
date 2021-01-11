@@ -1,6 +1,6 @@
 # Pages
 
-** Version 2.0.0**<br />
+** Version 2.1.0**<br />
 This is a personal website hosted on the github.
 This will be done by programming the code manually and storing the html pages on github.
 Then the github will host it using github pages.
@@ -10,6 +10,15 @@ Then the github will host it using github pages.
 There is no Installation method required besides the putting the url https://themapples.github.io/WebPage/ into your browser.
 
 ## Builds
+
+- Version 2.1.0
+- Pages
+	- Link to other pages such as github and linkedin
+	- New Navigation Bar
+- Bugs 
+	- Android View is not working well everything is compressed (Fixed)
+	- Navgation is not retracable (Fixed)
+	
 
 - Version 2.0.0
 - Pages

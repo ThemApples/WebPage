@@ -1,23 +1,48 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js">
+    </script>
+    <script>
+      function openSlideMenu(){
+        document.getElementById('menu').style.width = '250px';
+        document.getElementById('content').style.marginLeft = '250px';
+      }
+      function closeSlideMenu(){
+        document.getElementById('menu').style.width = '0';
+        document.getElementById('content').style.marginLeft = '0';
+      }
+    </script>
     <title>blog</title>
   </head>
+
   <body>
     <header id="header">
     </header>
-    <div class= "side">
-    <span class="avatar"><img src="images/minimal.png" alt="" /></span>
-    <h1>Jimmy Young</h1>
-    <h1>Software Developer Graduate</h1>
-      <li><a href="index.html"><span class="label">Home</span></a></li>
-      <li><a href="blog.html" ><span class="label">Blog</span></a></li>
-      <li><a href="android.html"><span class="label">Android tips</span></a></li>
-      <li><a href="https://write.as/jimmy-young/" ><span class="label">Write.as</span></a></li>
-    </div>
+    <div id="content">
+      <span class="slide">
+        <a href="#" onclick="openSlideMenu()">
+          <i class="fas fa-bars"></i>
+        </a>
+        <h1>Blog</h1>
+      </span>
+
+     <div id="menu" class="nav">
+        <a href="#" class="close" onclick="closeSlideMenu()">
+          <i class="fas fa-times"></i>
+        </a>
+        <span class="avatar"><img src="images/minimal.png" alt="" /></span>
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="android.html">Android Tips</a>
+        <a href="https://write.as/jimmy-young/">Write.as</a>
+      </div>
+
+
     <div id = "contain">
         </div>
       <div id="main">
